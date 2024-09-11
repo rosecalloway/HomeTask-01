@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            color: #4a90e2;
+        }
+        a {
+            color: #e94e77;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4a90e2;
+            color: white;
+        }
+        .comment {
+            color: #888;
+            font-style: italic;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Sample Webpage</h1>
+
+    <!-- This is a comment. It will not be displayed in the browser. -->
+
+    <p>This is a sample paragraph to demonstrate the basic HTML elements.</p>
+
+    <h2>Quotation Example</h2>
+    <blockquote>
+        <p>"The only limit to our realization of tomorrow is our doubts of today."</p>
+        <footer>- Franklin D. Roosevelt</footer>
+    </blockquote>
+
+    <h2>Image Example</h2>
+    <div class="image-container">
+        <img src="pc-img.avif" alt="PC Image" width="300">
+    </div>
+
+    <h2>Links Example</h2>
+    <p>Visit <a href="https://www.example.com" target="_blank">Example.com</a> for more information.</p>
+
+    <h2>Lists Example</h2>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <h2>Table Example</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Table Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row Span Example</td>
+                <td>Column 1</td>
+            </tr>
+            <tr>
+                <td>Column 2</td>
+            </tr>
+            <tr>
+                <td colspan="2">Col Span Example</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
